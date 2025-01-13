@@ -1,5 +1,5 @@
 function DA = DiversityEnhancementArchive(DA, Offspring, zmin, Ns)
-% The Feasible Enhancement Archive of CMOEA-CD
+% The Diversity Enhancement Archive of CMOEA-CD
 
     %% Dominance relation calculation
     S = [DA, Offspring];
