@@ -1,11 +1,14 @@
 classdef CMOEA_CD < ALGORITHM
 % <multi/many> <real/binary/permutation><constrained/none>
-% A constraint-Pareto dominance and diversity enhancement strategy based CMOEA
+% Constraint-Pareto dominance and diversity enhancement strategy based CMOEA
 % e1 --- 1 --- Type of environmental selection for forward exploration(1. SPEA2 2. NSGA-II 3. modified NSGA-III)
 % e2 --- 1 --- Type of environmental selection for feasible exploitation(1. SPEA2 2. NSGA-II 3. modified NSGA-III)
 
 %------------------------------- Reference --------------------------------
-
+% Z. Liu, F. Han, Q. Ling, H. Han and J. Jiang, "Constraint-Pareto Dominance 
+% and Diversity Enhancement Strategy based Evolutionary Algorithm for Solving 
+% Constrained Multiobjective Optimization Problems," in IEEE Transactions on 
+% Evolutionary Computation, 2025.
 %------------------------------- Copyright --------------------------------
 % Copyright (c) 2023 BIMK Group. You are free to use the PlatEMO for
 % research purposes. All publications which use this platform or any code
